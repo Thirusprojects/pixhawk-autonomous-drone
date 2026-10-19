@@ -1,14 +1,14 @@
 # Autonomous Waypoint Navigation Drone
 
-**An independently assembled and configured quadcopter built around Pixhawk 2.4.8 and PX4, with successful autonomous waypoint missions.**
+**A Pixhawk 2.4.8 / PX4 quadcopter with successful autonomous waypoint missions and 25+ waypoints tested.**
 
 ![Assembled autonomous quadcopter](media/drone-front.jpg)
 
 ## Overview
 
-This project explores GPS-guided autonomous flight through the integration of a carbon-fibre quadcopter airframe, electric propulsion, a Pixhawk flight controller, and an M10N GPS module. I handled the complete build, including assembly, wiring, flight-controller configuration, mission planning, and flight testing.
+This project explores GPS-guided autonomous flight through the integration of a carbon-fibre quadcopter airframe, electric propulsion, a Pixhawk flight controller, and an M10N GPS module. I handled assembly, wiring, flight-controller configuration, mission planning, and flight testing. A teammate created the enclosure CAD design, and we 3D printed the enclosure as a team.
 
-The drone successfully completed preplanned waypoint missions. This repository documents the hardware, my engineering contribution, and the available project media.
+The drone successfully completed preplanned waypoint missions, with 25+ waypoints tested. This repository documents the hardware, my engineering contribution, and the available project media.
 
 **Project author:** Thiruppathi P  
 **Status:** Built and flight-tested; waypoint completion confirmed by the project author.
@@ -24,16 +24,12 @@ The drone successfully completed preplanned waypoint missions. This repository d
 | Propellers | 1145 (11-inch diameter, 4.5-inch pitch) |
 | Battery | 6200 mAh, 4S |
 | GPS module | M10N |
-| Flight firmware | PX4; version not recorded |
+| Flight firmware | PX4 |
 | Ground-control tools used | QGroundControl and Mission Planner |
-
-The software names above record the tools used during the project. The exact tasks performed in each application were not separately recorded.
 
 ## Working principle
 
 The ground-control workflow defines a route as geographic waypoints. PX4 on the Pixhawk uses navigation and attitude estimates to guide the aircraft along the mission, while adjusting the four motor outputs through the ESCs to control attitude and thrust. The M10N GPS provides positioning input. The battery supplies the propulsion and onboard electronics through the aircraft's power system.
-
-This describes the system architecture; the original wiring, parameter values, and mission configuration are not available as a reproducible setup package.
 
 ## My contribution
 
@@ -41,7 +37,12 @@ This describes the system architecture; the original wiring, parameter values, a
 - Completed electrical wiring and component integration.
 - Configured the flight controller for the aircraft.
 - Planned autonomous waypoint missions.
-- Conducted flight testing and completed waypoint missions.
+- Conducted flight testing and tested 25+ waypoints.
+- Participated in 3D printing the enclosure with the team.
+
+### Team contribution
+
+A teammate created the enclosure CAD design. The enclosure was 3D printed collaboratively by our team.
 
 ## Project gallery
 
@@ -55,31 +56,25 @@ This describes the system architecture; the original wiring, parameter values, a
 
 [Open or download the flight video](media/flight-demo.mp4).
 
-The video is included as project media. It is not a flight-log record of waypoint completion.
+## Results
 
-## Results and documentation scope
+- Built and flight-tested the quadcopter.
+- Successfully completed autonomous waypoint missions, with 25+ waypoints tested.
+- Integrated a team-designed, 3D-printed enclosure into the build.
 
-The author confirms successful autonomous waypoint missions. Two build photos and one video are included. Flight duration, navigation accuracy, payload capacity, mission distance, and endurance have not been quantified here because supporting measurements were not supplied.
+Waypoint results are confirmed by the project author. The photos document the assembled aircraft, and the supplied video shows takeoff and outdoor flight.
 
-This is a hardware and integration portfolio repository. It does not contain original custom flight-control code, a PX4 firmware build, parameter exports, or mission files. PX4 is the firmware used in the project; it is not claimed as software authored for this repository.
+This project focuses on hardware integration and flight-controller configuration using existing PX4 firmware.
 
 ## Repository contents
 
 | Location | Contents |
 |---|---|
 | `media/` | Two JPEG build photos, a video preview, and the supplied MP4 |
-| `docs/project-record.md` | Evidence notes and items that could extend the documentation |
+| `docs/project-record.md` | Project evidence and contribution credits |
 | `docs/repository-details.md` | Suggested GitHub name, description, and topics |
 
 ## Viewing this project
 
 Open this README on GitHub to view the photos and follow the video link. After downloading the repository, open the JPEG and MP4 files using an image viewer and video player. No software installation or build step is required.
 
-## Potential documentation additions
-
-- PX4 version and an exported parameter file.
-- A mission-plan export and corresponding flight log.
-- Wiring diagram and detailed component model numbers.
-- Measured flight duration and waypoint-tracking results.
-
-These are documentation opportunities, not claims of additional completed work.
