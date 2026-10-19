@@ -1,6 +1,6 @@
 # Autonomous Waypoint Navigation Drone
 
-**A Pixhawk 2.4.8 / PX4 quadcopter with successful autonomous waypoint missions and 25+ waypoints tested.**
+**A Pixhawk 2.4.8 / PX4 quadcopter with successful autonomous waypoint missions and 25+ waypoints tested in a single mission.**
 
 ![Assembled autonomous quadcopter](media/drone-front.jpg)
 
@@ -8,7 +8,7 @@
 
 This project explores GPS-guided autonomous flight through the integration of a carbon-fibre quadcopter airframe, electric propulsion, a Pixhawk flight controller, and an M10N GPS module. I handled assembly, wiring, flight-controller configuration, mission planning, and flight testing. A teammate created the enclosure CAD design, and we 3D printed the enclosure as a team.
 
-The drone successfully completed preplanned waypoint missions, with 25+ waypoints tested. This repository documents the hardware, my engineering contribution, and the available project media.
+The drone successfully completed preplanned waypoint missions, with 25+ waypoints tested in a single mission. This repository documents the hardware, my engineering contribution, and the available project media.
 
 **Project author:** Thiruppathi P  
 **Status:** Built and flight-tested; waypoint completion confirmed by the project author.
@@ -37,7 +37,7 @@ The ground-control workflow defines a route as geographic waypoints. PX4 on the 
 - Completed electrical wiring and component integration.
 - Configured the flight controller for the aircraft.
 - Planned autonomous waypoint missions.
-- Conducted flight testing and tested 25+ waypoints.
+- Conducted flight testing and tested 25+ waypoints in a single mission.
 - Participated in 3D printing the enclosure with the team.
 
 ### Team contribution
@@ -59,7 +59,7 @@ A teammate created the enclosure CAD design. The enclosure was 3D printed collab
 ## Results
 
 - Built and flight-tested the quadcopter.
-- Successfully completed autonomous waypoint missions, with 25+ waypoints tested.
+- Successfully completed autonomous waypoint missions, with 25+ waypoints tested in a single mission.
 - Integrated a team-designed, 3D-printed enclosure into the build.
 
 Waypoint results are confirmed by the project author. The photos document the assembled aircraft, and the supplied video shows takeoff and outdoor flight.
