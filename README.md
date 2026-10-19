@@ -29,6 +29,12 @@ The drone successfully completed preplanned waypoint missions. This repository d
 
 The software names above record the tools used during the project. The exact tasks performed in each application were not separately recorded.
 
+## Working principle
+
+The ground-control workflow defines a route as geographic waypoints. PX4 on the Pixhawk uses navigation and attitude estimates to guide the aircraft along the mission, while adjusting the four motor outputs through the ESCs to control attitude and thrust. The M10N GPS provides positioning input. The battery supplies the propulsion and onboard electronics through the aircraft's power system.
+
+This describes the system architecture; the original wiring, parameter values, and mission configuration are not available as a reproducible setup package.
+
 ## My contribution
 
 - Assembled the airframe and integrated the propulsion and navigation hardware.
