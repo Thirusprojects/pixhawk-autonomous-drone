@@ -2,7 +2,7 @@
 
 ## Confirmed by Thiruppathi P
 - Personally handled assembly, integration, wiring, configuration, mission planning, and flight testing.
-- Successfully completed autonomous waypoint missions, with 25+ waypoints tested.
+- Successfully completed autonomous waypoint missions, with 25+ waypoints tested in a single mission.
 - Enclosure CAD was created by a teammate; the enclosure was 3D printed by the team.
 - Pixhawk 2.4.8 running PX4; 500 mm carbon-fibre airframe.
 - DYS 750 KV motors, 45 A ESCs, 1145 propellers.
