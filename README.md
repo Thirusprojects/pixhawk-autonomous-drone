@@ -33,6 +33,7 @@ The ground-control workflow defines a route as geographic waypoints. PX4 on the 
 
 ## My contribution
 
+- Led the project team.
 - Assembled the airframe and integrated the propulsion and navigation hardware.
 - Completed electrical wiring and component integration.
 - Configured the flight controller for the aircraft.
