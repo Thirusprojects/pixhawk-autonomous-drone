@@ -10,8 +10,8 @@ This project explores GPS-guided autonomous flight through the integration of a 
 
 The drone successfully completed preplanned waypoint missions, with 25+ waypoints tested in a single mission. This repository documents the hardware, my engineering contribution, and the available project media.
 
-**Project author:** Thiruppathi P  
-**Status:** Built and flight-tested; waypoint completion confirmed by the project author.
+**Thiruppathi P**  
+**Status:** Built and flight-tested with autonomous waypoint navigation.
 
 ## Hardware
 
@@ -52,7 +52,7 @@ A teammate created the enclosure CAD design. The enclosure was 3D printed collab
 
 ### Flight video
 
-[![Preview of the supplied flight video](media/flight-preview.jpg)](media/flight-demo.mp4)
+[![Preview of the flight video](media/flight-preview.jpg)](media/flight-demo.mp4)
 
 [Open or download the flight video](media/flight-demo.mp4).
 
@@ -62,7 +62,7 @@ A teammate created the enclosure CAD design. The enclosure was 3D printed collab
 - Successfully completed autonomous waypoint missions, with 25+ waypoints tested in a single mission.
 - Integrated a team-designed, 3D-printed enclosure into the build.
 
-Waypoint results are confirmed by the project author. The photos document the assembled aircraft, and the supplied video shows takeoff and outdoor flight.
+The photos document the assembled aircraft, and the flight video shows takeoff and outdoor flight.
 
 This project focuses on hardware integration and flight-controller configuration using existing PX4 firmware.
 
@@ -70,7 +70,7 @@ This project focuses on hardware integration and flight-controller configuration
 
 | Location | Contents |
 |---|---|
-| `media/` | Two JPEG build photos, a video preview, and the supplied MP4 |
+| `media/` | Two JPEG build photos, a video preview, and the flight MP4 |
 | `docs/project-record.md` | Project evidence and contribution credits |
 | `docs/repository-details.md` | Suggested GitHub name, description, and topics |
 
